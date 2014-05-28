@@ -165,10 +165,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\AddressModel.cs" />
-    <Compile Include="Models\ContactInfoModel.cs" />
+    <Compile Include="Models\Address.cs" />
+    <Compile Include="Models\ContactInfo.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\VacantModel.cs" />
+    <Compile Include="Models\Vacant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
