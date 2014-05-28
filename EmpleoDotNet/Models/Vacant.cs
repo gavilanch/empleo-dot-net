@@ -10,6 +10,10 @@ namespace EmpleoDotNet.Models
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
+        public string JobTitle { get; set; }
+        public IList<JobCategory> JobCategories { get; set; }
         public ContactInfo ContactInfo { get; set; }
     }
+
+    
 }
